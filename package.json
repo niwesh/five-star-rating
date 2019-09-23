@@ -1,8 +1,11 @@
 {
   "description": "5-star rating element (Polymer 3.x)",
-  "name": "@cwmr/iron-star-rating",
+  "name": "@nivesh_97/iron-star-rating",
   "version": "3.1.2",
-  "repository": "github:chadweimer/iron-star-rating",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadweimer/iron-star-rating.git"
+  },
   "homepage": "https://github.com/chadweimer/iron-star-rating#readme",
   "license": "MIT",
   "resolutions": {
@@ -33,5 +36,12 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chadweimer/iron-star-rating/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
