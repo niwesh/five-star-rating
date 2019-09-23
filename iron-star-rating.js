@@ -137,4 +137,4 @@ class IronStarRating extends PolymerElement {
   }
 }
 
-window.customElements.define('iron-star-rating', IronStarRating);
+window.customElements.define('ironstar-rating', IronStarRating);
