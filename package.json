@@ -1,6 +1,6 @@
 {
   "description": "5-star rating element (Polymer 3.x)",
-  "name": "@nivesh_97/iron-star-rating",
+  "name": "@nivesh_97/ironstar-rating",
   "version": "3.1.2",
   "repository": {
     "type": "git",
