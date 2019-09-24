@@ -1,6 +1,6 @@
-import { html, PolymerElement } from '@polymer/polymer/polymer-element.js';
-import '@polymer/iron-icon/iron-icon.js';
-import '@polymer/iron-icons/iron-icons.js';
+import { html, PolymerElement } from "https://unpkg.com/@polymer/polymer@latest/polymer-element.js?module";
+//import '@polymer/iron-icon/iron-icon.js';
+//import '@polymer/iron-icons/iron-icons.js';
 /**
 * `iron-star-rating`
 * 5-star rating element (Polymer 3.x)
