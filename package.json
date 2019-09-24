@@ -1,7 +1,7 @@
 {
   "description": "5-star rating element (Polymer 3.x)",
   "name": "iron-iron-star",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chadweimer/iron-star-rating.git"
@@ -16,12 +16,6 @@
   },
   "main": "iron-star-rating.js",
   "types": "iron-star-rating.d.ts",
-  "scripts": {
-    "generate-types": "gen-typescript-declarations --deleteExisting --outDir . --verify",
-    "lint": "polymer lint",
-    "test": "polymer test",
-    "prepare": "npm run generate-types"
-  },
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
     "@polymer/iron-icon": "^3.0.0",
@@ -43,5 +37,8 @@
   "directories": {
     "test": "test"
   },
-  "author": ""
+  "author": "",
+  "scripts": {
+    "test": "mocha"
+  }
 }
